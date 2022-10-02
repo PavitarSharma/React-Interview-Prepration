@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react';
 
 const Board = ({ winner, setWinner, reset, setReset }) => {
     // Creating a turn state, which indicates the current turn

@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import Board from './Board'
-import Info from './Info'
-import "./styles.css"
+import Info from './Info';
+import "./styles.css";
 
 const TicTacToe = () => {
-  const [winner, setWinner] = useState("")
-  const [reset, setReset] = useState(false)
+  const [winner, setWinner] = useState("");
+  const [reset, setReset] = useState(false);
 
 
   const resetBoard = () => {
