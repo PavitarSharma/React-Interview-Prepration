@@ -140,4 +140,4 @@ const Board = ({ winner, setWinner, reset, setReset }) => {
     )
 }
 
-export default Board
+export default Board;
