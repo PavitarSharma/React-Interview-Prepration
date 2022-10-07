@@ -1,5 +1,5 @@
-import { useState, useRef, useCallback } from 'react'
-import useBookSearch from "./useBookSearch"
+import { useState, useRef, useCallback } from 'react';
+import useBookSearch from "./useBookSearch";
 
 const InfiniteScroll = () => {
     const [query, setQuery] = useState("")
